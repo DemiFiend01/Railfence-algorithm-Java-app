@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"pl.rapala.magdalena.railfence6.controller"},{"l":"pl.rapala.magdalena.railfence6.model"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pl.rapala.magdalena.railfence.controller"},{"l":"pl.rapala.magdalena.railfence.model"},{"l":"pl.rapala.magdalena.railfence.view"}];updateSearchResults();
