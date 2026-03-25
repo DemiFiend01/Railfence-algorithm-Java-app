@@ -1,0 +1,84 @@
+-version
+@options
+@packages
+-classpath
+'D:/Studia/Sem V/Java/Rapala.Magdalena.ex6.final(1)/Rapala.Magdalena.ex6.final/RailFence6/target/classes;D:/Studia/Sem V/Java/Rapala.Magdalena.ex6.final(1)/Rapala.Magdalena.ex6.final/RailFence6/target/test-classes;C:/Users/Magdalena/.m2/repository/jakarta/platform/jakarta.jakartaee-api/11.0.0-M1/jakarta.jakartaee-api-11.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/11.0.0-M1/jakarta.jakartaee-web-api-11.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0-M1/jakarta.servlet-api-6.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/4.0.0-M1/jakarta.servlet.jsp-api-4.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/data/jakarta-data-api/1.0.0-M1/jakarta-data-api-1.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-el-api/4.1.0-M1/jakarta.enterprise.cdi-el-api-4.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/el/jakarta.el-api/6.0.0-M1/jakarta.el-api-6.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/faces/jakarta.faces-api/4.1.0-M1/jakarta.faces-api-4.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/websocket/jakarta.websocket-api/2.2.0-M1/jakarta.websocket-api-2.2.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.2.0-M1/jakarta.websocket-client-api-2.2.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar;C:/Users/Magdalena/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar;C:/Users/Magdalena/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.2.0-M1/jakarta.persistence-api-3.2.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/validation/jakarta.validation-api/3.1.0-M1/jakarta.validation-api-3.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/authentication/jakarta.authentication-api/3.1.0-M1/jakarta.authentication-api-3.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/security/enterprise/jakarta.security.enterprise-api/4.0.0-M1/jakarta.security.enterprise-api-4.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/enterprise/concurrent/jakarta.enterprise.concurrent-api/3.1.0-M1/jakarta.enterprise.concurrent-api-3.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/platform/jakarta.jakartaee-core-api/11.0.0-M1/jakarta.jakartaee-core-api-11.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0-M1/jakarta.annotation-api-3.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.2.0-M1/jakarta.interceptor-api-2.2.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.1.0-M1/jakarta.enterprise.cdi-api-4.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar;C:/Users/Magdalena/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.1.0-M1/jakarta.enterprise.lang-model-4.1.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar;C:/Users/Magdalena/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.2/jakarta.mail-api-2.1.2.jar;C:/Users/Magdalena/.m2/repository/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar;C:/Users/Magdalena/.m2/repository/jakarta/authorization/jakarta.authorization-api/3.0.0-M1/jakarta.authorization-api-3.0.0-M1.jar;C:/Users/Magdalena/.m2/repository/jakarta/batch/jakarta.batch-api/2.1.1/jakarta.batch-api-2.1.1.jar;C:/Users/Magdalena/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar;C:/Users/Magdalena/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar;C:/Users/Magdalena/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar;C:/Users/Magdalena/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/Magdalena/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar;C:/Users/Magdalena/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.3/junit-jupiter-engine-5.10.3.jar;C:/Users/Magdalena/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar;C:/Users/Magdalena/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar;C:/Users/Magdalena/.m2/repository/org/apache/derby/derbyclient/10.14.2.0/derbyclient-10.14.2.0.jar'
+-encoding
+'UTF-8'
+-private
+-sourcepath
+'D:/Studia/Sem V/Java/Rapala.Magdalena.ex6.final(1)/Rapala.Magdalena.ex6.final/RailFence6/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Studia/Sem V/Java/Rapala.Magdalena.ex6.final(1)/Rapala.Magdalena.ex6.final/RailFence6/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'RailFence6 1.0 Test API'
+-use
+-version
+-windowtitle
+'RailFence6 1.0 Test API'
+pl.rapala.magdalena.railfence6.test
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\classes = 1768472394170
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\test-classes = 0
+C:\Users\Magdalena\.m2\repository\jakarta\platform\jakarta.jakartaee-api\11.0.0-M1\jakarta.jakartaee-api-11.0.0-M1.jar = 1768423712143
+C:\Users\Magdalena\.m2\repository\jakarta\platform\jakarta.jakartaee-web-api\11.0.0-M1\jakarta.jakartaee-web-api-11.0.0-M1.jar = 1768423712256
+C:\Users\Magdalena\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0-M1\jakarta.servlet-api-6.1.0-M1.jar = 1768423712681
+C:\Users\Magdalena\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\4.0.0-M1\jakarta.servlet.jsp-api-4.0.0-M1.jar = 1768423712451
+C:\Users\Magdalena\.m2\repository\jakarta\data\jakarta-data-api\1.0.0-M1\jakarta-data-api-1.0.0-M1.jar = 1768423712392
+C:\Users\Magdalena\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-el-api\4.1.0-M1\jakarta.enterprise.cdi-el-api-4.1.0-M1.jar = 1768423712328
+C:\Users\Magdalena\.m2\repository\jakarta\el\jakarta.el-api\6.0.0-M1\jakarta.el-api-6.0.0-M1.jar = 1768423712371
+C:\Users\Magdalena\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar = 1768423712420
+C:\Users\Magdalena\.m2\repository\jakarta\faces\jakarta.faces-api\4.1.0-M1\jakarta.faces-api-4.1.0-M1.jar = 1768423713160
+C:\Users\Magdalena\.m2\repository\jakarta\websocket\jakarta.websocket-api\2.2.0-M1\jakarta.websocket-api-2.2.0-M1.jar = 1768423712572
+C:\Users\Magdalena\.m2\repository\jakarta\websocket\jakarta.websocket-client-api\2.2.0-M1\jakarta.websocket-client-api-2.2.0-M1.jar = 1768423712632
+C:\Users\Magdalena\.m2\repository\jakarta\ejb\jakarta.ejb-api\4.0.1\jakarta.ejb-api-4.0.1.jar = 1768423712654
+C:\Users\Magdalena\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar = 1768423712680
+C:\Users\Magdalena\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0-M1\jakarta.persistence-api-3.2.0-M1.jar = 1768423713122
+C:\Users\Magdalena\.m2\repository\jakarta\validation\jakarta.validation-api\3.1.0-M1\jakarta.validation-api-3.1.0-M1.jar = 1768423712927
+C:\Users\Magdalena\.m2\repository\jakarta\authentication\jakarta.authentication-api\3.1.0-M1\jakarta.authentication-api-3.1.0-M1.jar = 1768423712939
+C:\Users\Magdalena\.m2\repository\jakarta\security\enterprise\jakarta.security.enterprise-api\4.0.0-M1\jakarta.security.enterprise-api-4.0.0-M1.jar = 1768423713025
+C:\Users\Magdalena\.m2\repository\jakarta\enterprise\concurrent\jakarta.enterprise.concurrent-api\3.1.0-M1\jakarta.enterprise.concurrent-api-3.1.0-M1.jar = 1768423713159
+C:\Users\Magdalena\.m2\repository\jakarta\platform\jakarta.jakartaee-core-api\11.0.0-M1\jakarta.jakartaee-core-api-11.0.0-M1.jar = 1768423713201
+C:\Users\Magdalena\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar = 1768423713199
+C:\Users\Magdalena\.m2\repository\jakarta\json\jakarta.json-api\2.1.0\jakarta.json-api-2.1.0.jar = 1768423713269
+C:\Users\Magdalena\.m2\repository\jakarta\json\bind\jakarta.json.bind-api\3.0.0\jakarta.json.bind-api-3.0.0.jar = 1768423713296
+C:\Users\Magdalena\.m2\repository\jakarta\annotation\jakarta.annotation-api\3.0.0-M1\jakarta.annotation-api-3.0.0-M1.jar = 1768423713301
+C:\Users\Magdalena\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.2.0-M1\jakarta.interceptor-api-2.2.0-M1.jar = 1768423713349
+C:\Users\Magdalena\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\4.1.0-M1\jakarta.enterprise.cdi-api-4.1.0-M1.jar = 1768423713373
+C:\Users\Magdalena\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar = 1768423713388
+C:\Users\Magdalena\.m2\repository\jakarta\enterprise\jakarta.enterprise.lang-model\4.1.0-M1\jakarta.enterprise.lang-model-4.1.0-M1.jar = 1768423713387
+C:\Users\Magdalena\.m2\repository\jakarta\jms\jakarta.jms-api\3.1.0\jakarta.jms-api-3.1.0.jar = 1768423713399
+C:\Users\Magdalena\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar = 1768423713460
+C:\Users\Magdalena\.m2\repository\jakarta\mail\jakarta.mail-api\2.1.2\jakarta.mail-api-2.1.2.jar = 1768423713562
+C:\Users\Magdalena\.m2\repository\jakarta\resource\jakarta.resource-api\2.1.0\jakarta.resource-api-2.1.0.jar = 1768423713575
+C:\Users\Magdalena\.m2\repository\jakarta\authorization\jakarta.authorization-api\3.0.0-M1\jakarta.authorization-api-3.0.0-M1.jar = 1768423713537
+C:\Users\Magdalena\.m2\repository\jakarta\batch\jakarta.batch-api\2.1.1\jakarta.batch-api-2.1.1.jar = 1768423713493
+C:\Users\Magdalena\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar = 1768423713807
+C:\Users\Magdalena\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar = 1768423713656
+C:\Users\Magdalena\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar = 1768423713726
+C:\Users\Magdalena\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1768423713726
+C:\Users\Magdalena\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar = 1768423714146
+C:\Users\Magdalena\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar = 1768423714160
+C:\Users\Magdalena\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar = 1768423713933
+C:\Users\Magdalena\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar = 1768423714735
+C:\Users\Magdalena\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar = 1768425661012
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\src\test\java = 1767187994000
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\allclasses-index.html = 1768472400406
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\allpackages-index.html = 1768472400414
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\element-list = 1768472400305
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\help-doc.html = 1768472400491
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\index-all.html = 1768472400461
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\index.html = 1768472400472
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\member-search-index.js = 1768472400424
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\module-search-index.js = 1768472400417
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\overview-tree.html = 1768472400375
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\package-search-index.js = 1768472400419
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\search.html = 1768472400467
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\tag-search-index.js = 1768472400427
+D:\Studia\Sem V\Java\Rapala.Magdalena.ex6.final(1)\Rapala.Magdalena.ex6.final\RailFence6\target\site\testapidocs\type-search-index.js = 1768472400422
